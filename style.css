@@ -1,13 +1,13 @@
 h1 {
-  color: #ffffff;
+  color: orange;
   font-family: "Lato", sans-serif;
-  font-size: 54px;
+  font-size: 36px;
   font-weight: 300;
   line-height: 58px;
   margin: 0 0 58px;
 }
 p {
-  color: #adb7bd;
+  color: cadetblue;
   font-family: "Lucida Sans", Arial, sans-serif;
   font-size: 16px;
   line-height: 26px;
@@ -20,4 +20,12 @@ a {
 }
 a:hover {
   color: #ffffff;
+}
+
+header {
+  background-image: url("https://www.visitnsw.com/sites/visitnsw/files/styles/header_slider/public/2018-01/Header%20-%20Sun%20rising%20over%20Shelly%20Beach%20on%20the%20Central%20Coast.jpg?itok=qAMpscZc");
+  height: 300px;
+  font-size: 68px;
+  color: cadetblue;
+  text-align: center;
 }
