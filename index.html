@@ -16,30 +16,42 @@
 
 <body>
   <script src="bpScriptFile.js"></script>
-</body>
-<form method="get">
-  <fieldset>
-    <ul>
-      <li>
-        <label for="latitude">Latitude</label>
-        <input
-          type="text"
-          id="latitude"
-          placeholder="e.g. 42.9150747"
-          required
-        />
-      </li>
+  <form method="get">
+    <fieldset>
+      <label for="latitude">Latitude:</label>
+      <input type="text" id="latitude" placeholder="e.g. 42.9150747" required />
+      <br />
 
-      <li>
-        <label for="longitude">Longitude</label>
-        <input
-          type="text"
-          id="longitude"
-          placeholder="e.g. -77.784323"
-          required
-        />
-      </li>
-    </ul>
-  </fieldset>
-  <button type="button" id="Get Weather">Get Weather</button>
-</form>
+      <label for="longitude">Longitude:</label>
+      <input
+        type="text"
+        id="longitude"
+        placeholder="e.g. -77.784323"
+        required
+      />
+    </fieldset>
+    <button type="button" id="Get Weather">Get Weather!</button>
+  </form>
+<p>
+  <div class = "row">
+    <div class = "column">
+    <div class = "overlay">Avila Beach</div>
+      <img src = "https://images.fineartamerica.com/images-medium-large-5/pier-at-avila-beach-california-barbara-snyder.jpg">
+      </div>
+      <div class="column">
+      <div class = "overlay">Pismo Beach</div>
+          <img src="https://www.visitcalifornia.com/sites/default/files/styles/welcome_image/public/VC_PismoBeach_ST_RF_579831770_1280x640.jpg" class="hover-shadow">
+          </div>
+        <div class="column">
+        <div class = "overlay">Shell Beach</div>
+          <img src="https://angelaandrieux.com/wp-content/uploads/2017/08/Peering-Out-from-the-Cave-Shell-Beach-California-3.jpg">
+        </div>
+        <div class="column">
+        <div class="overlay">Morro Bay</div>
+          <img src="https://cdn-az.allevents.in/banners/6b33a890-5e6b-11e9-9dc5-1149bd8bc062-rimg-w504-h320-gmir.jpg">
+        </div>
+      </div>
+    </p>
+
+  </div>
+</body>

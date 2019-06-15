@@ -1,6 +1,6 @@
 h1 {
   color: orange;
-  font-family: "Lato", sans-serif;
+  font-family: Give You Glory, cursive;
   font-size: 36px;
   font-weight: 300;
   text-align: center;
@@ -27,13 +27,14 @@ header {
   font-size: 68px;
   color: cadetblue;
   text-align: center;
+  text-shadow: 3px 2px white;
 }
 
 input[type="text"] {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 100%;
   padding: 0 20px;
-  width: 240px;
+  width: 315px;
   margin: 5px;
   border-color: cadetblue;
 }
@@ -55,4 +56,35 @@ label {
 form {
   height: 100px;
   width: 500px;
+}
+
+.column {
+  float: left;
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.column:hover .overlay {
+  opacity: 1;
 }
