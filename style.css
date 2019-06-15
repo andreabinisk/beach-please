@@ -1,4 +1,4 @@
-h1 {
+h2 {
   color: orange;
   font-family: Give You Glory, cursive;
   font-size: 36px;
@@ -23,11 +23,18 @@ a:hover {
 
 header {
   background-image: url("https://www.visitnsw.com/sites/visitnsw/files/styles/header_slider/public/2018-01/Header%20-%20Sun%20rising%20over%20Shelly%20Beach%20on%20the%20Central%20Coast.jpg?itok=qAMpscZc");
-  height: 250px;
+  height: 300px;
+  margin: -20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h1 {
   font-size: 68px;
   color: cadetblue;
   text-align: center;
   text-shadow: 3px 2px white;
+  vertical-align: middle;
 }
 
 input[type="text"] {
