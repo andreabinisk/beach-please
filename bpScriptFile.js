@@ -1,4 +1,6 @@
-fetch("http://example.com/movies.json")
+fetch(
+  "https://api.darksky.net/forecast/de958546bbd9fa4d9e87c54b428f9ae1/35.1799752,-120.7318418"
+)
   .then(function(response) {
     return response.json();
   })
