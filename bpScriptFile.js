@@ -1,12 +1,15 @@
 let button01 = document.getElementById("Get Weather");
 fetch(
-  "https://api.darksky.net/forecast/de958546bbd9fa4d9e87c54b428f9ae1/35.1799752,-120.7318418"
+  "http://api.openweathermap.org/data/2.5/weather?lat=35.1799752&lon=-120.7318418&APPID=8eaf7058bd5a4db9700ee42db10f28bb"
 )
   .then(function(response) {
     return response.json();
   })
   .then(function(myJson) {
     // this is where you use the data coming in
-    console.log(JSON.stringify(myJson));
+    let result = [];
+    for (let key in myJson) {
+      result.push(myJson[key].main.temp);
+    }
   });
-button01.addEventListener("click", fetch);
+button01.addEventListener("click", fetch, false);
